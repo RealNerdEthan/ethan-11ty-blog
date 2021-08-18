@@ -1,4 +1,3 @@
-const { DateTime } = require("luxon");
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -83,7 +82,8 @@ module.exports = function(eleventyConfig) {
       "md",
       "njk",
       "html",
-      "liquid"
+      "liquid",
+      "ejs"
     ],
 
     // -----------------------------------------------------------------
